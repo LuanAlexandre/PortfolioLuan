@@ -6,7 +6,10 @@ h1 {
 }
 #info{
     font-family: Arial, Helvetica, monospace;
-    position: absolute; left:220px; bottom:400px;
+    position: absolute;
+    left:220px;
+    bottom:400px;
+    margin: 10px;
 }
 
 body{background-color: rgb(181,157,164); color: midnightblue;}
@@ -17,4 +20,8 @@ strong{font-style: italic;}
     width: 200px;
     padding: 5px;
     background-color:orange;
+}
+
+ul#carac li:nth-of-type(2n+1){
+    color: red;
 }

@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: aliceblue;
+}
+
+nav {
+  border: 5px solid darkorange;
+  background-color: darkorange;
+  padding: 10px;
+  text-align: right;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+}
+
+nav li {
+  display: inline;
+}
+
+#minha_foto {
+  margin: 20px;
+  width: 300px;
+}
+
+main {
+  border: 5px solid purple;
+  background-color: purple;
+}
+
+.lado-direito {
+  float: right;
+  width: 9.8%;
+  margin-right: 20px;
+  font-style: italic;
+  background-color: violet;
+  border: 5px solid violet;
+  line-height: 27px;
+  text-align: right;
+  font-size: 17px;
+}
+
+aside > p {
+  margin: 10px;
+}
+
+#licoes_a_aprender , ol {
+  width: 300px;
+  background-color: darkcyan;
+  color: white;
+  border: 5px solid white;
+  font-family: monospace;
+  margin: 20px;
+}
+
+h2 {
+  text-align: left;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 14.5%;
+  margin-left: 20px;
+  background-color: crimson;
+  border: 5px solid crimson;
+  font-weight: 600;
+  font-style: oblique;
+  text-shadow: 1px;
+  letter-spacing: 0.5px;
+  text-align: left;
+
+}
+
+#licoes_a_aprender {
+  left: 500px;
+}
+
+footer {
+  border: 5px solid orange;
+  background-color: orange;
+  text-align: center;
+}
+
+#rodape li {
+  display: inline;
+  padding: 5px;
+  margin: 5px;
+  background-color: orange;
+}
+
+section {
+  display: inline-block;
+}
